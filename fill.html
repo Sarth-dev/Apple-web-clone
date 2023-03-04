@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="klop.css">
+    <link rel="stylesheet" href="kjk.js">
+    <title>fill</title>
+</head>
+
+<body>
+    <section>
+        <h1 style="text-align: center;
+    font-size: xxx-large;">Fill The Details</h1>
+        <form action="form.php">
+            <input style="margin-left: 518px;
+        border-style: groove;
+        width: 223px;" type="text" placeholder="Enter Name">
+        </form>
+        <form action="form.php">
+            <input style="margin-left: 518px;
+        border-style: groove;
+        width: 223px;
+        margin-top: 15px;" type="text" placeholder="Address">
+        </form>
+        <form action="form.php">
+            <input style="margin-left: 518px;
+        border-style: groove;
+        width: 223px;
+        margin-top: 15px;" type="number" placeholder="Enter mobile no.">
+        </form>
+        <form action="form.php">
+            <input style="margin-left: 518px;
+        border-style: groove;
+        width: 223px;
+        margin-top: 15px;" type="number" placeholder="Enter quantity">
+        </form>
+        
+            <button style="margin-left: 607px;
+            margin-top: 20px;" onclick="myFunction()">SUBMIT</button>
+            <p id="popup" style="text-align: center;
+            font-size: x-large;"></p>
+            <script>
+                function myFunction() {
+                    var txt;
+                    if(confirm("Press a button")){
+                        txt="Submit Succefully"
+                    } 
+                    else{
+                        txt="Not Submitted"
+                    }
+                    document.getElementById("popup").innerHTML=txt;
+                    
+                }
+            </script>
+
+        </div>
+    </section>
+</body>
+
+</html>
